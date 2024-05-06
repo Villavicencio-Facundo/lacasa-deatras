@@ -9,8 +9,8 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg menu">
+            <div class="container-fluid lacasa">
                 <a class="navbar-brand" href="../index.html">La casa de atras</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -27,7 +27,7 @@
                         <a class="nav-link" href="./servicios.html">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./cortes.html">Cortes</a>
+                        <a class="nav-link" href="./cortes.html">Carta de cortes</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./clientes.html">Clientes</a>
@@ -41,37 +41,46 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section class="contacto-section">
             <h1 class="titulo">Contacto</h1>
             <img src="../Assets/contacto1.png" alt="">
             <p>------------------------------- Contactate con nosotros</p>
         </section>
         <section>
-            <div class="formulario">
-                <fieldset>
-                    <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre">
-                    <label for="apellido">Apellido</label>
-                    <input type="text" id="apellido">
-                    <label for="telefono">Telefono</label>
-                    <input type="number" id="telefono">
-                    <label for="email">Email</label>
-                    <input type="email" id="email">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Ingresa tu comentario"></textarea>
-                    <input type="submit">
-                </fieldset>
-            </div>
-            <article class="wp">
-                <a href="https://web.whatsapp.com/"><img src="../Assets/icons8-whatsapp-24.png" alt=""></a>
-                <p>2234786596</p>
-            </article>
-            <div class="ubicacion-home">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12577.309855456931!2d-57.5686492!3d-37.9928217!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d9006747a129%3A0x91dc15e7e67d6793!2sLa%20casa%20de%20atr%C3%A1s%20barber%C3%ADa%20tradicional!5e0!3m2!1ses-419!2sar!4v1712717888578!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="formulario-div">
+                <div class="formulario">
+                    <fieldset>
+                        <legend>Completa el formulario</legend>
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" id="apellido">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Telefono:</label>
+                            <input type="tel" id="telefono">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="comentario">Comentario:</label>
+                            <textarea id="comentario" cols="30" rows="5" placeholder="Ingresa tu comentario"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </fieldset>
+                </div>
             </div>
         </section>
     </main>
     <footer>
-        <p>© 2024</p>
+        <p>© La casa de atras 2024</p>
         <div>
             <a href="https://web.whatsapp.com/"target="_blank"><img src="../Assets/icons8-whatsapp-24.png" alt="wp"></a>
             <a href="https://www.facebook.com/"target="_blank"><img src="../Assets/icons8-facebook-24.png" alt="fb"></a>

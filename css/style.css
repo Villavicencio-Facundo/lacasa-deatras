@@ -3,3 +3,321 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/** paleta de colores
+
+Fondo #1E1E1E
+Titulo #0E5B30
+Texto y fondo oscuro #D3B479
+Texto y fondo clarito #F9ECCC
+**/
+
+/** ---Tipografias
+H1 - H2 - "la casa": font-family: "Inika", serif;
+        font-weight: 700;
+TEXTO y menu : font-family: "Lora", serif; 
+---**/
+
+body{
+    background-color: #1E1E1E;
+}
+
+
+
+/* Menu */
+.menu{
+    background-color: #D3B479;
+}
+.menu ul li a{
+    color: #F9ECCC;
+}
+
+.lacasa a{
+    font-family: "Inika", serif;
+        font-weight: 700;
+color: #0E5B30;
+}
+
+/* Titulos */
+/*h1*/
+.titulo{
+    font-family: "Inika", serif;
+        font-weight: 700;
+    color: #0E5B30;
+    text-align: center;
+}
+/*h2*/
+
+.titulo2{
+    font-family: "Inika", serif;
+        font-weight: 700;
+    color: #0E5B30;
+}
+/* h3 */
+.titulo3{
+    font-family: "Lora", serif;
+    color: #D3B479;
+}
+.titulo3home{
+    font-family: "Lora", serif;
+    color: #D3B479;
+    text-align: center;
+}
+
+
+
+/* Home */
+
+.txt-home1 p{
+    font-family: "Lora", serif;
+    color: #D3B479;
+    text-align: justify;
+}
+.txt-home2{
+    font-family: "Lora", serif;
+    color: #D3B479;
+    text-align: justify;
+}
+.horarios p{
+    font-family: "Lora", serif;
+    color: #D3B479;
+}
+.horarios ul li{
+    list-style: none;
+    color: #F9ECCC;
+}
+.logo-section{
+    width: 200px;
+}
+.contenedor-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-principal-home img{
+    margin: 50px 25px 50px 25px;
+}
+
+.contenedor-home2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ubicacion-horario{
+    display: flex;
+    margin: 50px;
+}
+
+.horarios{
+    text-align: center;
+    margin: 50px;
+    width: 50%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9ECCC;
+    background-color: #D3B479;
+    padding: 20px;
+}
+footer p{
+    font-family: "Lora", serif;
+    margin: 0; 
+}
+.footer-iconos{
+    display: flex;
+    gap: 20px;
+}
+
+/* Historia*/
+.historia-1 p{
+    font-family: "Lora", serif;
+    color: #D3B479;
+}
+.historia-2 p{
+    font-family: "Lora", serif;
+    color: #D3B479;
+}
+.img-historia {
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-gap: 20px;
+}
+.img-historia img{
+    width: 100%;
+    height: auto;
+}
+.foto-cartel img{
+    width: 100%;
+    height: auto;
+}
+.color-card{
+    background-color: #D3B479;
+}
+
+
+/* Servicios */
+
+.contenedor{
+    background-image: url(../assets/servicio-fondo.png);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto; 
+    gap: 20px; 
+    justify-items: center; 
+    align-items: center; 
+    min-height: 500px; 
+}
+
+.cuadro{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: #F9ECCC;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.info-servicios{
+    text-align: center;
+    margin: 50px;
+}
+.servicio-info p{
+    font-family: "Lora", serif;
+    color: #F9ECCC;
+}
+.imagen-servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:  50px 25px 50px 25px;
+}
+.boton-turno-servicios{
+    font-family: "Inika", serif;
+        font-weight: 700;
+        font-size: 30px;
+}
+.boton-turno-servicios :hover{
+    font-size: 50px;
+    background-color: #0E5B30;
+}
+
+/* Carta de cortes*/
+.cortes-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.section2-cortes-texto{
+    font-family: "Lora", serif;
+    margin: 50px;
+    color: #D3B479;
+}
+.color-card-cortes{
+    background-color: #D3B479;
+}
+.text-card-cortes p{
+    font-family: "Lora", serif;
+    color: #F9ECCC;
+}
+.boton-turno-cortes{
+    font-family: "Inika", serif;
+        font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+    margin: 50px;
+}
+.boton-turno-cortes :hover{
+    font-size: 80px;
+    color: #D3B479;
+    background-color: #F9ECCC;
+}
+
+/* Clientes */
+.section1-clientes p{
+    margin-top: 50px;
+    color: #D3B479;
+    text-align: center;
+}
+.cleintes-galery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
+
+.img-cliente1 { grid-area: img1; }
+.img-cliente2 { grid-area: img2; }
+.img-cliente3 { grid-area: img3; }
+.img-cliente4 { grid-area: img4; }
+.img-cliente5 { grid-area: img5; }
+.img-cliente6 { grid-area: img6; }
+.img-cliente7 { grid-area: img7; }
+.img-cliente8 { grid-area: img8; }
+.img-cliente9 { grid-area: img9; }
+.img-cliente10 { grid-area: img10; }
+
+.cleintes-galery {
+    grid-template-areas:
+        "img1 img1"
+        "img2 img3"
+        "img4 img5"
+        "img6 img7"
+        "img8 img9"
+        "img10 img10";
+}
+
+/* Contacto */
+.contacto-section{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+.contacto-section p{
+    font-family: "Lora", serif;
+    color: #D3B479;
+    font-size: 25px;
+    margin: 50px;
+}
+
+.formulario-div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 50px;
+}
+.formulario{
+    width: 400px;
+    background-color: #F9ECCC;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-family: "Lora", serif;
+    display: block;
+    font-weight: bold; /* negrita*/
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px;
+    border-radius: 5px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #D3B479;
+    color: #F9ECCC;
+}
