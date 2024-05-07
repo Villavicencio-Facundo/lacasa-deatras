@@ -248,6 +248,7 @@ footer p{
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     justify-items: center;
+    margin: 25px;
 }
 
 .img-cliente1 { grid-area: img1; }
@@ -321,3 +322,90 @@ footer p{
     background-color: #D3B479;
     color: #F9ECCC;
 }
+
+
+
+
+/* media queries*/
+
+/* INDEX :*/
+
+@media (max-width: 1152px){
+    .menu{
+        background-color: red;
+        width: 100vw;
+    }
+    footer{
+        background-color: aqua;
+        color: black;
+        width: 100vw;
+    }
+    .horarios p{
+        text-align: center;
+        color: yellow;
+    }
+    .horarios ul li{
+        list-style: none;
+        color: blue;
+        background-color: aliceblue;
+    }
+    .horarios{
+        text-align: center;
+    }
+    .boton-turno-home{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .ubicacion-horario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ubicacion-home {
+        order: 1; 
+    }
+    
+    .horarios {
+        order: 2;
+        text-align: center;
+    }
+    .txt-home1{
+        color: #0E5B30;
+        font-size: 15px;
+        text-align: center;
+    }
+    .txt-home2{
+        color: #0E5B30;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+
+/* CONTACTO */
+
+
+@media(max-width:1152px){
+    .contacto-section img{
+        width: 100px;
+    }
+    .contacto-section p{
+        background-color: #F9ECCC;
+    }
+    .formulario{
+        background-color: aqua;
+        width: 250px;
+    }
+}
+
+@media(max-width: 587px){
+    .contacto-section p{
+        font-size: 15px;
+        color: #0E5B30;
+    }
+}
+
