@@ -1,0 +1,24 @@
+.titulo{
+    font-family:$font-principal;
+    font-weight: 700;
+    color: $color-titulo;
+    text-align: center;
+}
+
+/*h2*/
+
+.titulo2{
+    font-family:$font-principal;
+        font-weight: 700;
+    color: $color-titulo;
+}
+/* h3 */
+.titulo3{
+    font-family: $font-secundaria;
+    color: $color-texto-fondo-oscuro;
+}
+.titulo3home{
+    font-family: $font-secundaria;
+    color: $color-texto-fondo-oscuro;
+    text-align: center;
+}

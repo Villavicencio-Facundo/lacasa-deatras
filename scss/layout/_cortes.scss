@@ -1,0 +1,16 @@
+.cortes-div{
+    @include flex;
+    margin: 50px;
+}
+.section2-cortes-texto{
+    font-family: $font-secundaria;
+    margin: 50px;
+    color: $color-texto-fondo-oscuro;
+}
+.color-card-cortes{
+    background-color: $color-texto-fondo-oscuro;
+}
+.text-card-cortes p{
+    font-family: $font-secundaria;
+    color: $color-texto-fondo-clarito;
+}

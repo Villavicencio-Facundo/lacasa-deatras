@@ -1,0 +1,13 @@
+.menu{
+    width: 100%;
+    background-color:$color-texto-fondo-oscuro;
+}
+.menu ul li a{
+    color: $color-texto-fondo-clarito;
+}
+
+.lacasa a{
+    font-family: $font-principal;
+        font-weight: 700;
+color: $color-titulo;
+}

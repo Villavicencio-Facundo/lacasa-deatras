@@ -1,0 +1,33 @@
+.section1-clientes p{
+    margin-top: 50px;
+    color: $color-texto-fondo-oscuro;
+    text-align: center;
+}
+.cleintes-galery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-items: center;
+    margin: 25px;
+}
+
+.img-cliente1 { grid-area: img1; }
+.img-cliente2 { grid-area: img2; }
+.img-cliente3 { grid-area: img3; }
+.img-cliente4 { grid-area: img4; }
+.img-cliente5 { grid-area: img5; }
+.img-cliente6 { grid-area: img6; }
+.img-cliente7 { grid-area: img7; }
+.img-cliente8 { grid-area: img8; }
+.img-cliente9 { grid-area: img9; }
+.img-cliente10 { grid-area: img10; }
+
+.cleintes-galery {
+    grid-template-areas:
+        "img1 img1"
+        "img2 img3"
+        "img4 img5"
+        "img6 img7"
+        "img8 img9"
+        "img10 img10";
+}

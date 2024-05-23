@@ -1,0 +1,49 @@
+.txt-home1 p{
+    font-family: $font-secundaria;
+    color: $color-texto-fondo-oscuro;
+    text-align: justify;
+}
+.txt-home2{
+    font-family: $font-secundaria;
+    color: $color-texto-fondo-oscuro;
+    text-align: justify;
+}
+
+.horarios{
+    p{
+        font-family: $font-secundaria;
+    color:  $color-texto-fondo-oscuro;
+    }
+    ul li{
+        list-style: none;
+        color: $color-texto-fondo-clarito;
+    }
+}
+
+.logo-section{
+    width: 200px;
+}
+.contenedor-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-principal-home img{
+    margin: 50px 25px 50px 25px;
+}
+
+.contenedor-home2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ubicacion-horario{
+    display: flex;
+    margin: 50px;
+}
+
+.horarios{
+    text-align: center;
+    margin: 50px;
+    width: 50%;
+}
